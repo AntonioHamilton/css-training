@@ -1,6 +1,8 @@
 body {
-  background: #fff;
+  background: white;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .wrapper {
@@ -10,7 +12,6 @@ body {
 }
 
 .circle {
-  border: black solid 10px;
   width: 100px;
   line-height: 0;
   padding: 50px 0;
@@ -31,8 +32,7 @@ body {
   background: black;
 }
 
-img {
-  border: black solid 10px;
+#pingu {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -51,16 +51,51 @@ img {
   }
 }
 
-.caixa p {
-  left: 20px;
-  background: red;
+.box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#longeDoMario {
+  margin-top: 50px;
+}
+.nome {
+  margin-top: 5px;
+  width: 30vw;
+  border: none;
+  background: black;
+  padding: 20px;
   font-size: 30px;
-  font-weight: bolder;
+  border-radius: 20px;
+  outline: none;
   color: white;
-  border-radius: 3em;
 }
 
-.wrap-box {
-  text-align: justify;
-  background-color: rgba(0, 255, 0, 1);
+#titulo {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.cadastro {
+  margin: 30px 0px;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  outline: 0;
+  border: 0;
+  background: aqua;
+  border-radius: 2em;
+  font-size: 40px;
+  box-shadow: 3px 3px 3px black;
+}
+
+.cadastro:hover {
+  background: blue;
+  cursor: pointer;
+}
+
+.cadastro :active {
+  background: black;
 }
